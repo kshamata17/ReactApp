@@ -1,12 +1,13 @@
+import './Home.scss';
 
 const Home = () => {
   return (
     <>
-        <section>
-            <h1>Hello!</h1>
-            <p>gfuisgdfigf dgfuisdfgf ufgiuf</p>
-            <button>Submit</button>
-        </section>
+      <section>
+          <h1>Hello!</h1>
+          <p>gfuisgdfigf dgfuisdfgf ufgiuf</p>
+          <button>Submit</button>
+      </section>
     </>
   )
 }
