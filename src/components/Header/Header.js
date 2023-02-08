@@ -3,6 +3,8 @@ import React, {useState, useEffect} from 'react'
 import './Header.scss'
 import {FiMenu} from 'react-icons/fi'
 import {GrClose} from 'react-icons/gr'
+import {AiOutlineShoppingCart} from 'react-icons/ai'
+import {AiOutlineSearch} from 'react-icons/ai'
 
 const Header = () => {
 
@@ -39,9 +41,6 @@ const Header = () => {
                     <NavLink to="/" className='menu'>Home</NavLink>
                 </li>
                 <li className='nav__item' onClick={handleCloseMobileMenu} >
-                    <NavLink to="/shop" className='menu'>Shop</NavLink>
-                </li>
-                <li className='nav__item' onClick={handleCloseMobileMenu} >
                     <NavLink to="/services" className='menu'>Services</NavLink>
                 </li>
                 <li className='nav__item' onClick={handleCloseMobileMenu} >
@@ -57,7 +56,15 @@ const Header = () => {
                     <NavLink to="/contact" className='menu'>Contact Us</NavLink>
                 </li>
                 <li className='nav__item' onClick={handleCloseMobileMenu} >
-                    <NavLink to="/cart" className='menu'>Cart Logo</NavLink>
+                    <div className='search'>
+                        <AiOutlineSearch className='search__icon'/>
+                        <button className='search__btn'>Search</button>
+                    </div>
+                    {/* <NavLink to="/shop" className='menu'>Search</NavLink> */}
+                </li>
+                <li className='nav__item' onClick={handleCloseMobileMenu} >
+                <AiOutlineShoppingCart  className='cart'/>
+                    {/* <NavLink to="/cart" className='menu'>Cart Logo</NavLink> */}
                 </li>
             </ul>
         </nav>

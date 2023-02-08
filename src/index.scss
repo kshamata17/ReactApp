@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap');
 
-$bg: #fff;
+@import './colors.scss';
 
 * {
   margin: 0;
@@ -8,10 +8,8 @@ $bg: #fff;
   box-sizing: border-box;
 }
 
-$primary-background: $bg;
-
 body {
   height: 500vh;
-  background: $primary-background;
+  background: $bg;
   font-family: 'Poppins', sans-serif;
 }

@@ -1,0 +1,72 @@
+$h1: 3rem;
+$h2: 2.3rem;
+$p: 1.1rem;
+$text: serif;
+$lh: 1.5rem;
+$menu: rgb(192, 103, 44);
+$logo: rgb(6, 139, 30);
+
+.products {
+    margin: 4rem 6rem;
+    font-family: $text;
+
+    h1 {
+        font-size: $h1;
+        text-transform: capitalize;
+        text-align: center;
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid black;
+            width: 25%;
+            margin: 10px auto;
+        }
+        
+    }
+    .first__prdt {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4.5rem;
+        
+        .prdt__text {
+            width: 40%;
+            text-align: center;
+
+            h2 {
+               font-size: $h2;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               div {
+                margin-left: 10px;
+                padding: .5rem;
+                font-size: $p;
+                display: flex;
+                align-items: center;
+                border: 1px solid $menu;
+                color: $menu;
+                cursor: pointer;
+                &:hover {
+                    background: $menu;
+                }
+               }
+            }
+            p{
+                font-family:'Times New Roman', Times, serif;
+                line-height: $lh;
+                font-size: $p;
+            }
+        }
+        .image{
+            width: 75%;
+            margin: 1rem;
+            height: 550px;
+            
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}

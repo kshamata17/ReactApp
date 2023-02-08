@@ -1,9 +1,4 @@
-//color variables
-$bg: #fff;
-$secondary: rgb(176, 174, 174);
-$secondary-background: rgb(203, 201, 201);
-$menu: rgb(192, 103, 44);
-$logo: rgb(6, 139, 30);
+@import './variables.scss';
 
     .navbar__container.active {
         background-color: transparent;
@@ -21,6 +16,8 @@ $logo: rgb(6, 139, 30);
         z-index: 1;
         padding: 0 2rem;
         transition: all 0.5s ease;
+        background: $bg;
+        font-family: $text;
 
         .logo{
             color: $logo;
@@ -55,7 +52,7 @@ $logo: rgb(6, 139, 30);
                         display: flex;
                         align-items: center;
                         text-align: center;
-                        padding: 0 1rem;
+                        padding: 0 .5rem;
                         height: 100%;
                         text-decoration: none;
                         color: $menu;
@@ -65,8 +62,45 @@ $logo: rgb(6, 139, 30);
                             transition: all 0.3 ease;
                         }
                     }
+                    .search {
+                        display: flex;
+                        align-items: center;
+                        background: rgb(244, 239, 239);
+                        border-radius: 15px;
+                        padding: 3px 10px;
+                        .search__icon {
+                            font-size: 1rem;
+                            color: $menu;
+                            cursor: pointer;
+                            &:hover {
+                                color: $logo;
+                            }
+                        }
+                        .search__btn {
+                            font-size: 1rem;
+                            border: none;
+                            background: rgb(244, 239, 239);
+                            color: $menu;
+                            border-radius: 15px;
+                            font-family: $text;
+                            cursor: pointer;
+                            &:hover {
+                                color: $logo;
+                            }
+                        }
+                        
+
+                    }
                     
 
+                }
+                .cart {
+                    color: $menu;
+                    cursor: pointer;
+                    font-size: 1.5rem;
+                    &:hover {
+                        color: $logo;
+                    }
                 }
             }
             @media screen and (max-width:768px) {
