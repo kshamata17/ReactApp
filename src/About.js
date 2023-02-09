@@ -1,26 +1,17 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import HeroSection from './components/HeroSection/HeroSection.js';
+
 
 const About = () => {
-
-    const navigate = useNavigate();
-
-
-    const goToContact = () =>{
-        navigate("/contact");
-    }
+  const data = {
+    name: "About Us",
+    image: "../images/livingroom3.jpg",
+  };
   return (
     <>
-   
-        <section>
-        <h1>About Page</h1>
-        <button onClick={() => goToContact()}>Go To Contact Page</button>
-        <button onClick={() => {
-            navigate(-1);
-        }}>Go Back</button>
-        </section>
+      <HeroSection  {...data}/>
     </>
-  );
+  )
 }
 
 export default About

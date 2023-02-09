@@ -1,0 +1,25 @@
+@import '../components/Header/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.second__section {
+    margin: 4rem 6rem;
+    font-family: $text;
+
+    h1 {
+        font-size: $h1;
+        text-transform: capitalize;
+        text-align: center;
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid black;
+            width: 10%;
+            margin: 10px auto;
+        }
+    }
+}

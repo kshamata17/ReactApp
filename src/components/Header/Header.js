@@ -37,7 +37,7 @@ const Header = () => {
             <div className='menu__icon' onClick={handleClick}>{click ? <GrClose />: <FiMenu />}
             </div>
             <ul className={ click ? 'nav__menu active' : 'nav__menu'}>
-                <li className='nav__item' onClick={handleCloseMobileMenu} >
+                <li className='nav__item ' onClick={handleCloseMobileMenu} >
                     <NavLink to="/" className='menu'>Home</NavLink>
                 </li>
                 <li className='nav__item' onClick={handleCloseMobileMenu} >

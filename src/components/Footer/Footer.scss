@@ -1,0 +1,56 @@
+@import '../Header/variables.scss';
+
+.services__container {
+    height: 150px;
+    // width: 20px;
+    margin: 1rem 8rem;
+    // padding: 20px;
+    background: $color-green;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 2px gray;
+
+
+    
+    .service {
+        display: flex;
+        padding: 20px;
+        border-right: 1px solid rgb(185, 183, 183);
+        // .services__container :last-child div{
+        //     border: none;
+        // }
+        .image {
+            padding: 12px;
+            padding-right: 20px;
+        }
+
+        .text{
+            font-family: $text;
+            font-size: 1.2rem;
+            padding: 20px;
+            p {
+                color: $menu;
+            }
+            .services {
+                font-size: 1rem;
+                text-decoration: none;
+                color: $menu;
+                display: flex;
+                align-items: center;
+                &:hover {
+                    color: $logo;
+                }
+
+                .arrow {
+                   padding-left: 5px;
+                   font-size: 25px;
+                }
+            }
+        }
+    }
+    #last {
+        border-right: none;
+    }
+}
+

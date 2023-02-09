@@ -5,7 +5,32 @@ $secondary-background: rgb(203, 201, 201);
 $menu: rgb(192, 103, 44);
 $logo: rgb(6, 139, 30);
 
+$color1-green: #c6c17e;
+$color-green: #ecebd5;
+$color2-gray: #a1acb0;
+$color3-brown: #bf7828;
+
 //font variables
 $h1: 3rem;
 $h2: 2rem;
 $text: serif;
+
+//buttons
+@mixin button {
+    background: none;
+    padding: 10px 2rem;
+    border-radius: 20px;
+    color: $bg;
+    cursor: pointer;
+    font-weight: bolder;
+    border: 1px solid $bg;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+@mixin hover {
+    transform: scale(120%);
+    transition: .5s ease-in-out;
+    color: black;
+    background: $bg;
+}
