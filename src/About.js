@@ -5,7 +5,7 @@ import HeroSection from './components/HeroSection/HeroSection.js';
 const About = () => {
   const data = {
     name: "About Us",
-    image: "../images/livingroom3.jpg",
+    image: "../images/bg3.jpg",
   };
   return (
     <>

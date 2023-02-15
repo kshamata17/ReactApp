@@ -1,9 +1,7 @@
 // import './Home.scss';
 import Products from './components/Products';
-import Cards from './components/Cards';
 import HeroSection from './components/HeroSection/HeroSection.js';
-// import './components/HeroSection/HeroSection.js;'
-// import Bedroom from '../src/images/bedroom1.jpg'
+import Welcome from './components/Welcome';
 const Home = () => {
 
   const data = {
@@ -28,8 +26,9 @@ const Home = () => {
       
       {/* <HeroSection {...data}/> */}
       <HeroSection {...data} />
+      <Welcome />
       <Products />
-      <Cards />
+
     </>
   )
 }
