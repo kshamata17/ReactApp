@@ -1,14 +1,15 @@
 @import '../Header/variables.scss';
 
-h1 {
-    font-size: $h1;
-    text-transform: capitalize;
+.title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
     text-align: center;
+    margin-top: 2rem;
     &::after {
         content: "";
         display: block;
         border: 1px solid black;
-        width: 10%;
+        width: 5%;
         margin: 10px auto;
     }
 }
@@ -132,10 +133,9 @@ footer {
         }
     }
     .social {
-        padding: 20px;
         display: flex;
         align-items: center;
-        padding-top: 10px;
+        padding-left: 2rem;
         border-top: 1px solid $color2-gray;
         border-bottom: 1px solid $color2-gray;
         h3 {

@@ -1,0 +1,98 @@
+@import '../components/Header/variables.scss';
+
+.container {
+    font-family: $text;
+    background: $background2;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    h1 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        text-align: center;
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid black;
+            width: 5%;
+            margin: 10px auto;
+        }
+        
+    }
+
+    .cards {
+        // background: gray;
+
+        .cards__cont{
+            padding: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            .cont {
+                position: relative;
+                cursor: pointer;
+                width: 400px;
+                &:hover .overlay{
+                    opacity: 0.9;
+                }
+                &:hover img{
+                    opacity: 1;
+                }
+                img {
+                    opacity: 1;
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    transition: .5s ease;
+                    backface-visibility: hidden;
+                    filter: brightness(.6);
+                }
+                .overlay {
+                    position: absolute;
+                    padding: 1rem;
+                    height: 100%;
+                    width: 100%;
+                    opacity: 0;
+                    transition: .5s ease;
+                    background-color: $color3-brown; 
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+
+                    .text {
+                        color: white;
+                        font-size: 1rem;
+                        div {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            h3 {
+                                text-align: center;
+                            }
+                            .arrow {
+                                margin-left: 10px;
+                                font-size: 2rem;
+                                transition: .3s ease-in-out;
+                                &:hover {
+                                    transform: translateX(5px);
+                                }
+                            }
+                        }
+                        
+                    }
+                } 
+                h2 {
+                    position: absolute;
+                    top: 80%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: $bg;
+                    font-size: $h2;
+                }   
+            }
+        }
+    }
+}

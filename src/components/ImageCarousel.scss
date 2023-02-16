@@ -1,0 +1,43 @@
+@import '../components/Header/variables.scss';
+
+.testimonials__cont {
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    .test {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        button {
+            border: none;
+            height: 100%;
+            background: $bg;
+            // position: absolute;
+            // bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            p{
+                font-size: 20px;
+                color: black;
+                cursor: pointer;
+            }
+        }
+    
+        .next__btn {
+            right: 0;
+        }
+        
+    
+        .testimonials {
+            width: 860px;
+            padding: 0 10px;
+            display: flex;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+            // justify-content: center;
+        }
+    }
+    
+}

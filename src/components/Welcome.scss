@@ -8,9 +8,10 @@
     .wrapper {
         padding: 2rem 6rem;
         display: flex;
+        background: $background2;
+        margin-top: 1rem;
         .text {
             padding: 10px;
-             
             h2 {
                 font-size: 1.2rem;
                 color: $menu;

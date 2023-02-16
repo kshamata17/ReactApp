@@ -1,0 +1,37 @@
+@import '../components/Header/variables.scss';
+
+.mycard {
+    min-width: 400px;
+    max-width: 400px;
+    height: 300px;
+    background: $bg;
+    margin: 10px;
+    border: 10px solid $background2;
+    padding: 1rem;
+
+    p {
+        color: rgb(104, 102, 102);
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 1.5;
+
+    }
+
+    .person__info {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10px;
+        .person__info {
+            height: 60px;
+            img {
+                border-radius: 50%;
+
+            }
+        }
+        .person__details {
+            color: rgb(104, 102, 102);
+            padding: 20px;
+        }
+    }
+}

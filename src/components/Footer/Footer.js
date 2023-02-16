@@ -10,7 +10,7 @@ import {FiPhoneCall} from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <><h1>Our Services</h1>
+    <><h1 className='title'>Our Services</h1>
     <div className='services__container'>
         
         <div className='service'>

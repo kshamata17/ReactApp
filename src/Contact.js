@@ -15,6 +15,7 @@ const Contact = () => {
     <>
         <section>
             <h1>Contact Page</h1>
+            <h2>Write us about your project</h2>
             <button onClick={gotoHome}>Go To Home Pge</button>
             <button onClick={() => goBack()}>Go Back</button>
         </section>

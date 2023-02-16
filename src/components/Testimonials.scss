@@ -1,0 +1,22 @@
+@import '../components/Header/variables.scss';
+
+.test__container {
+    font-family: $text;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    h1 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        text-align: center;
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid black;
+            width: 5%;
+            margin: 10px auto;
+        }
+        
+    }
+}
