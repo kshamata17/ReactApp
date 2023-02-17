@@ -7,23 +7,26 @@
 }
 .main__section {
     // background: gray;
-    height: 120vh;
+    height: 60vh;
     position: relative;
     text-align: center;
         img {
+            filter: brightness(.7);
             height: 100%;
             width: 100%;
         }
     .content {
         position: absolute;
-        top: 40%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
 
         h1 {
-            font-size: 4rem;
+            font-size: 3rem;
             color: $bg;
             text-shadow: 1px 1px 2px $bg;
+            font-family: 'Dancing Script';
+            text-transform: uppercase
         }
         button {
             @include button;

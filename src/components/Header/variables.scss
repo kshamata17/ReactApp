@@ -2,9 +2,11 @@
 $bg: #fff;
 $secondary: rgb(176, 174, 174);
 $secondary-background: rgb(203, 201, 201);
-$menu: rgb(192, 103, 44);
-$logo: rgb(6, 139, 30);
+// $menu: rgb(192, 103, 44);
+$menu: #8d5e2f;
+$logo1: rgb(6, 139, 30);
 $background2: #f6f6f6;
+$logo: maroon;
 
 $color1-green: #c6c17e;
 $color-green: #ecebd5;
@@ -15,6 +17,9 @@ $color3-brown: #bf7828;
 $h1: 3rem;
 $h2: 2rem;
 $text: serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap');
+
 
 //buttons
 @mixin button {

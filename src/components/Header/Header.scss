@@ -1,4 +1,5 @@
 @import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap');
 
     .navbar__container.active {
         background-color: transparent;
@@ -13,7 +14,7 @@
         box-shadow: 1px 1px 5px rgb(195, 193, 193);
         display: flex;
         justify-content: space-between;
-        z-index: 1;
+        z-index: 999;
         padding: 0 2rem;
         transition: all 0.5s ease;
         background: $bg;
@@ -28,7 +29,7 @@
             display: flex;
             align-items: center;
             gap: 0.5rem;
-
+            font-family: 'Dancing Script';
         }
 
         .navbar__container {

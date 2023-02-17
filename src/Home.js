@@ -8,7 +8,7 @@ const Home = () => {
 
   const data = {
     name: "Solutions for every corner",
-    image: "./images/bg1.jpg",
+    image: "./images/bg7.jpg",
   }
   return (
     <>

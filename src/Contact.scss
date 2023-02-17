@@ -1,0 +1,67 @@
+@import './components/Header/variables.scss';
+
+section {
+
+    h2 {
+        text-align: center;
+        padding: 2rem;
+        text-transform: capitalize;
+        font-size: 2rem;
+        color: rgb(88, 87, 87);
+
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid rgb(88, 87, 87);
+            width: 5%;
+            margin: 10px auto;
+        }
+    }
+
+    .container__form {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        text-align: center;
+
+        .contact__form {
+            max-width: 50rem;
+            margin: auto;
+
+            .contact__inputs {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                input{
+                    font-size: 1rem;
+                    padding: 8px 30px;
+                    height: 2rem;
+                    // border: 1px solid $menu;
+                    &:focus {
+                        outline-color: $menu;
+                    }
+                }
+                textarea {
+                    font-size: 1rem;
+                    padding: 8px 30px;
+                    // border: 1px solid $menu;
+                    &:focus {
+                        outline-color: $menu;
+                    }
+                }
+
+                input[type=submit] {
+                    background: $menu;
+                    color: $bg;
+                    height: 2.5rem;
+                    cursor: pointer;
+                    letter-spacing: 2px;
+                    border: none;
+                    &:hover {
+                        background: $color3-brown;
+                    }
+                }
+            }
+        }
+    }
+}
