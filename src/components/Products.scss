@@ -32,7 +32,10 @@ $logo: rgb(6, 139, 30);
         .prdt__text {
             width: 40%;
             text-align: center;
-
+            .nav {
+                text-decoration: none;
+                color: black;
+            }
             h2 {
                font-size: 1.2rem;
                display: flex;

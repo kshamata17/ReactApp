@@ -1,0 +1,26 @@
+@import './components/Header/variables.scss' ;
+
+.port__cont {
+    background: #f6f6f6;
+    padding: 1rem;
+    text-align: center;
+    .port__text {
+        cursor: pointer;
+        border: 1px solid $logo;
+        padding: 5px 30px;
+        transition: .3s ease-in-out;
+        p {
+            font-size: 1.2rem;
+            color: $logo;
+            text-transform: uppercase;
+            &:hover {
+                color: $bg;
+            }
+        }
+        &:hover {
+            background: $logo;
+            color: $bg;
+        }
+        
+    }
+}

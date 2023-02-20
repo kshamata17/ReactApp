@@ -55,12 +55,12 @@ const Footer = () => {
                 </p>
             </div>
             <ul className='col'><h3>Company</h3>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>Services</a></li>
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Portfolio</a></li>
-                <li><a href='#'>Blog</a></li>
-                <li><a href='#'>Privacy Policy</a></li>
+                <NavLink to="/home" className="nav"><li><a>Home</a></li></NavLink>
+                <NavLink to="/services" className="nav"><li><a>Services</a></li></NavLink>
+                <NavLink to="/about" className="nav"><li><a>About</a></li></NavLink>
+                <NavLink to="/portfolio" className="nav"><li><a>Portfolio</a></li></NavLink>
+                <NavLink to="/blog" className="nav"><li><a>Blog</a></li></NavLink>
+                <NavLink to="/privacy" className="nav"><li><a>Privacy Policy</a></li></NavLink>
             </ul>
             <ul className='col'><h3>Head Office</h3>
                 <li>

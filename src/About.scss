@@ -1,0 +1,150 @@
+@import './components/Header/variables.scss';
+
+
+
+.about__wrapper {
+    padding: 2rem 8rem;
+    h2 {
+        text-align: center;
+        padding: 2rem;
+        text-transform: capitalize;
+        font-size: 2rem;
+        color: rgb(88, 87, 87);
+    
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid rgb(88, 87, 87);
+            width: 5%;
+            margin: 10px auto;
+        }
+    }
+    .about__container {
+        background: $bg;
+        display: flex;
+        // margin: 20px;
+        .image {
+            max-width: 400px;
+            img {
+                width: 100%;
+            }
+        }
+        .text {
+            padding: 3rem;
+
+            h3 {
+                text-transform: uppercase;
+                color: $logo;
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+            p {
+                color: rgb(88, 87, 87);
+                font-size: 1rem;
+                word-spacing: .2rem;
+                line-height: 1.2rem;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+.team__wrapper{
+    padding: 2rem 8rem;
+    background: #f6f6f6;
+    h2 {
+        text-align: center;
+        padding: 2rem;
+        text-transform: capitalize;
+        font-size: 2rem;
+        color: rgb(88, 87, 87);
+    
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid rgb(88, 87, 87);
+            width: 5%;
+            margin: 10px auto;
+        }
+    }
+    .team__container {
+        padding-top: 2rem;
+        .team__cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            // background: $secondary;
+            .team__card {
+                margin: 2rem 2.5rem;
+                border: 4px solid $bg;
+                border-radius: 50%;
+                .team__content {
+                    position: relative;
+                    cursor: pointer;
+                    width: 150px;
+                    &:hover .team__text{
+                        opacity: 0.9;
+                    }
+                    &:hover img{
+                        opacity: 1;
+                    }
+                    img {
+                        opacity: 1;
+                        display: block;
+                        height: 150px;
+                        transition: .5s ease;
+                        backface-visibility: hidden;
+                        border-radius: 50%;
+                        // filter: brightness(.6);
+                    }
+                    .team__text {
+                        position: absolute;
+                        padding: 1rem;
+                        height: 100%;
+                        width: 100%;
+                        opacity: 0;
+                        transition: .5s ease;
+                        background-color: $logo; 
+                        top: 50%;
+                        left: 50%;
+                        -webkit-transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                        transform: translate(-50%, -50%);
+                        text-align: center;
+                        border-radius: 50%;
+                        
+                    .overlay__text {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        color: $bg;
+                        font-size: $h2;
+    
+                        h3 {
+                            font-size: 1.2rem;
+    
+                        }
+                        h4 {
+                            font-size: 1rem;
+                        }
+                        .team__social {
+                            display: flex;
+                            text-align: center;
+                            justify-content: center;
+                            .row {
+                                margin: 5px;
+                                .media {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                    } 
+    
+                    }  
+                }
+            }
+            
+        }
+    }
+}

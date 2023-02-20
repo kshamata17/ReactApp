@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroSection from './components/HeroSection/HeroSection.js'
-
+import Portfolio_comp from './components/Portfolio/Portfolio_comp.js';
+import './Portfolio.scss'
 
 const Portfolio = () => {
   const data = {
@@ -10,6 +11,12 @@ const Portfolio = () => {
   return (
     <>
       <HeroSection  {...data}/>
+      <Portfolio_comp />
+      <div className='port__cont'>
+        <button className='port__text'>
+          <p>Do you want to discuss your project?</p>
+        </button>
+      </div>
     </>
   )
 }

@@ -51,14 +51,16 @@ section {
                 }
 
                 input[type=submit] {
-                    background: $menu;
+                    background: $logo;
                     color: $bg;
                     height: 2.5rem;
                     cursor: pointer;
                     letter-spacing: 2px;
                     border: none;
                     &:hover {
-                        background: $color3-brown;
+                        background: $bg;
+                        color: $logo;
+                        border: 1px solid $logo;
                     }
                 }
             }

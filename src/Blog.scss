@@ -1,0 +1,54 @@
+@import './components/Header/variables.scss' ;
+
+.blog__wrapper {
+    padding: 4rem;
+
+    .blog__container {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        .blog {
+            flex-basis: 28%;
+            margin: 2rem;
+            background-color: $bg;
+            .blog__image {
+                max-width: 400px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .blog__text {
+                padding: 1rem;
+                h4 {
+                    color: $logo;
+                }
+                h3 {
+                    text-transform: capitalize;
+                    color: $text_color;
+                    line-height: 1.8rem;
+                }
+                p {
+                    line-height: 1.8rem;
+                }
+            }
+            button {
+                padding-left: 1rem;
+                cursor: pointer;
+                border: none;
+                color: $logo;
+                background: transparent;
+                font-size: 1rem;
+                display: flex;
+                align-items: center;
+                .arrow {
+                    margin-left: 5px;
+                    transition: .3s ease-in-out;
+                    &:hover {
+                        transform: translateX(5px);
+                    }
+                }
+            }
+        }
+    }
+}
