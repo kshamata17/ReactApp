@@ -77,6 +77,15 @@
                                 color: $logo;
                             }
                         }
+                        input {
+                            font-size: 1rem;
+                            width: 5rem;
+                            border: none;
+                            background: rgb(244, 239, 239);
+                            &:focus {
+                                outline-color: $menu;
+                            }
+                        }
                         .search__btn {
                             font-size: 1rem;
                             border: none;

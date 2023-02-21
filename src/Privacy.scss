@@ -1,6 +1,33 @@
 @import './components/Header/variables.scss';
 
 .privacy__wrapper {
-    padding: 1rem;
+    padding: 1rem 4rem;
+    .privacy__container {
+        margin: 2rem 4rem;
+
+        h2 {
+            text-align: center;
+            padding: 2rem;
+            text-transform: capitalize;
+            font-size: 2rem;
+            color: rgb(88, 87, 87);
     
+            &::after {
+                content: "";
+                display: block;
+                border: 1px solid rgb(88, 87, 87);
+                width: 5%;
+                margin: 10px auto;
+            }
+        }
+        h3 {
+            color: #000;
+            line-height: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 20px;
+            line-height: 1.3rem;
+        }
+    }
 }

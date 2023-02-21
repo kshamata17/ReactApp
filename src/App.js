@@ -10,6 +10,7 @@ import Error from './Error';
 import MainHeader from './MainHeader';
 import Privacy from './Privacy';
 import './App.scss';
+import Products_gallery from './Products_gallery';
 
 function App() {
   return <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
+        <Route path="productsGallery" element={<Products_gallery />} />
         <Route path="portfolio" element={<Portfolio />} />
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />
