@@ -32,7 +32,7 @@ const Header = () => {
 
   return (
     <header>
-        <a href='#' className='logo'>Om Traders & Glass House</a>
+        <NavLink to="/" className='logo'>Visionary Homes</NavLink>
         <nav className={showNav ? 'navbar__container' : 'navbar__container active'}>
             <div className='menu__icon' onClick={handleClick}>{click ? <GrClose />: <FiMenu />}
             </div>

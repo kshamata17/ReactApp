@@ -1,41 +1,62 @@
 @import './components/Header/variables.scss';
 
-.product__item {
-    flex-basis: 20%;
-    // background-color: aliceblue;
-    margin: 2rem;
-
-    .image {
-        height: 250px;
-        img {
-            height: 100%;
+.services__cont {
+    display: flex;
+    margin: 1.5rem;
+    justify-content: center;
+    .card {
+            display: flex;
+            justify-content: center;
+            min-width: 60rem;
+            background: whitesmoke;
+        .image {
+            height: 140px;
+            // width: 350px;
+            width: 445px;
+            padding: 1rem;
+            img {
+                height: 100%;
+                // width: 100%;
+            }
+        }
+        .content {
+            padding: 2rem 0;
+            .title__price{
+                display: flex;
+                align-items: center;
+                h3 {
+                    text-transform: uppercase;
+                    color: $logo;
+                }
+                h4 {
+                    padding-left: 10px;
+                    color: $logo;
+                }
+            }
+            
+            p {
+                font-size: 1rem;
+                margin-top: 1rem;
+                color: $text_color;
+            }
+            .btn_service {
+                height: 3rem;
+                width: 10rem;
+                border: 1px solid $text_color;
+                background: $bg;
+                padding: 1rem;
+                margin-left: 20px;
+                color: $menu;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                transition: .3s ease-in-out;
+                &:hover {
+                    background: $logo;
+                    color: $bg;
+                }
+            }
+            
         }
     }
-    .content {
-        padding: 2rem 0;
-        h3 {
-            text-transform: uppercase;
-            color: $logo;
-        }
-        
-        p {
-            font-size: 1rem;
-            margin-top: 1rem;
-            color: $text_color;
-        }
-        
-    }
-    .btn_service {
-        border: 1px solid $text_color;
-        background: $bg;
-        padding: 1rem 5rem;
-        color: $menu;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        transition: .3s ease-in-out;
-        &:hover {
-            background: $logo;
-            color: $bg;
-        }
-    }
+    
 }

@@ -11,6 +11,7 @@ import MainHeader from './MainHeader';
 import Privacy from './Privacy';
 import './App.scss';
 import Products_gallery from './Products_gallery';
+import Payment from './Payment';
 
 function App() {
   return <BrowserRouter>
@@ -24,7 +25,8 @@ function App() {
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />
         <Route path="cart" element={<Cart />} />
-        <Route path="privacy" element={<Privacy/>} />
+        <Route path="privacy" element={<Privacy />} />
+        <Route path="payment" element={<Payment />}/>
         <Route path="*" element={<Error/>} />
       </Route>
     </Routes>
