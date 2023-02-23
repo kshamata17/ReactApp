@@ -1,0 +1,52 @@
+@import './components/Header/variables.scss';
+
+.color__wrapper {
+    padding: 5rem;
+    h2 {
+        text-align: center;
+        padding: 2rem;
+        text-transform: capitalize;
+        font-size: 2rem;
+        color: rgb(88, 87, 87);
+    
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid rgb(88, 87, 87);
+            width: 5%;
+            margin: 10px auto;
+        }
+    }
+    .color__gallery{
+        background: $bg;
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        .color__card {
+            margin: 2rem;
+            background: wheat;
+            height: 200px;
+            width: 200px;
+            border-top-right-radius: 20px;
+            position: relative;
+            .heart__icon {
+                color: $logo;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                font-size: 2rem;
+                transition: .2s ease-in-out;
+                &:hover {
+                    cursor: pointer;
+                    color: $bg;
+                }
+            }
+            h3 {
+                color: $logo;
+                position: absolute;
+                bottom: 10px;
+                padding-left: 10px;
+            }
+        }
+    }
+}

@@ -10,7 +10,6 @@ const Services = () => {
   return (
     <>
       <HeroSection  {...data}/>
-
       <div className='services__cont'>
         <div className='group'>
           <div className='card'>

@@ -12,7 +12,7 @@ const Products_gallery = () => {
   return (
     <>
     <HeroSection {...data}/>
-    <div className='services__cont'>
+    <div className='gallery__cont'>
         <div className='group'>
           <div className='card'>
             <div className='image'>

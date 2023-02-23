@@ -46,7 +46,15 @@
                     transition: .5s ease;
                     backface-visibility: hidden;
                     filter: brightness(.6);
-                }
+                } 
+                h2 {
+                    position: absolute;
+                    top: 80%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    color: $bg;
+                    font-size: $h2;
+                }   
                 .overlay {
                     position: absolute;
                     padding: 1rem;
@@ -83,15 +91,7 @@
                         }
                         
                     }
-                } 
-                h2 {
-                    position: absolute;
-                    top: 80%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    color: $bg;
-                    font-size: $h2;
-                }   
+                }
             }
         }
     }

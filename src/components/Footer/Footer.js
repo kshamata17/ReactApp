@@ -10,9 +10,9 @@ import {FiPhoneCall} from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <><h1 className='title'>Our Services</h1>
+    <>
+    <h1 className='title'>Our Services</h1>
     <div className='services__container'>
-        
         <div className='service'>
             <div className='image'> 
                 <FaBed size='2x' color="white" />
@@ -27,7 +27,7 @@ const Footer = () => {
                 <FaBraille size='2x' color="white" />
             </div>
             <div className='text'><p>Decoration</p>
-                <NavLink to="/services" className='services'>Details <BsArrowRight className='arrow'/></NavLink>
+                <NavLink to="/paint" className='services'>Details <BsArrowRight className='arrow'/></NavLink>
             </div>
         </div>
         <div className='service'>

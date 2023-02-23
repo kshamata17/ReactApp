@@ -18,8 +18,8 @@
     // width: 20px;
     margin: 0rem 10rem;
     // padding: 20px;
-    background-color: $color3-brown;
-    // background: $color-green;
+    // background-color: #f6f6f6;
+    background: $color-green;
     border-radius: 2px;
     display: flex;
     justify-content: space-evenly;
@@ -91,6 +91,7 @@ footer {
         max-width: 100%;
         display: flex;
         justify-content: center;
+        // background: $color1-green;
         background: #f6f6f6;
         z-index: 9;
         
