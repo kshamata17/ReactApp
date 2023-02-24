@@ -1,6 +1,7 @@
 import React from 'react';
 import '../HeroSection/HeroSection.scss';
 import { NavLink } from 'react-router-dom';
+import Welcome from '../Welcome';
 
 const HeroSection = ({name, image}) => {
   return (
@@ -9,7 +10,7 @@ const HeroSection = ({name, image}) => {
             <img src={image} alt='background' />
             <div className='content'>
                 <h1>{name}</h1>
-                <NavLink to = '/' >
+                <NavLink to = '/productsGallery' >
                   <button className=''>Discover</button>
                 </NavLink>
                 

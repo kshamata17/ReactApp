@@ -71,5 +71,20 @@ $logo: rgb(6, 139, 30);
                 width: 100%;
             }
         }
+        
+        @media only screen and (min-width: 480px) and (max-width: 1024px) {
+            display: flex; 
+            flex-direction: column;  
+            .image{
+                width: 100%;
+                margin: 1rem;
+                height: 400px;
+                
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
     }
 }

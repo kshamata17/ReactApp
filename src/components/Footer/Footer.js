@@ -18,8 +18,7 @@ const Footer = () => {
                 <FaBed size='2x' color="white" />
             </div>
             <div className='text'><p>Furniture</p>
-            <NavLink to="/services" className='services'>Details <BsArrowRight className='arrow'/></NavLink>
-
+                <NavLink to="/services" className='services'>Details <BsArrowRight className='arrow'/></NavLink>
             </div>
         </div>
         <div className='service'>
@@ -49,7 +48,7 @@ const Footer = () => {
     </div>
     <footer>
         <div className='main__footer'>
-            <div className='col'>
+            <div className='col' id='exp'>
                 <h3>Glass House</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
                 </p>

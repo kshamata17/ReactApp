@@ -37,7 +37,15 @@
             overflow-x: hidden;
             scroll-behavior: smooth;
             // justify-content: center;
+            @media only screen and (min-width: 480px) and (max-width: 1024px) {
+                display: flex; 
+                flex-direction: column; 
+ 
+            }
         }
+    }
+    button {
+        visibility: hidden;
     }
     
 }

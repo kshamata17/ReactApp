@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import '../src/Contact.scss';
 import HeroSection from './components/HeroSection/HeroSection';
 
@@ -34,7 +35,8 @@ const Contact = () => {
                                required
                         />
                         <textarea name='message' placeholder="Your Message" cols='30' rows='6'></textarea>
-                        <input type='submit' value='SEND'/>
+                        
+                        <NavLink to='/'><input type='submit' value='SEND'/></NavLink>
 
                     </form>
                 </div>
