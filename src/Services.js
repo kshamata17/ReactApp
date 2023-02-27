@@ -1,8 +1,8 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import HeroSection from './components/HeroSection/HeroSection.js'
 import './Services.scss'
 const Services = () => {
-
   const data = {
     name: "Our Services",
     image: "./images/bg7.jpg",
@@ -20,7 +20,7 @@ const Services = () => {
               <h3>House Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service1'><button className='btn_service'>read more</button></NavLink>
           </div>
           <div className='card'>
             <div className='image'>
@@ -30,7 +30,7 @@ const Services = () => {
               <h3>Kitchen Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service2'><button className='btn_service'>read more</button></NavLink>
           </div>
           <div className='card'>
             <div className='image'>
@@ -40,7 +40,7 @@ const Services = () => {
               <h3>Living Room Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service3'><button className='btn_service'>read more</button></NavLink>
           </div>
           <div className='card'>
             <div className='image'>
@@ -50,7 +50,7 @@ const Services = () => {
               <h3>Bedroom Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service4'><button className='btn_service'>read more</button></NavLink>
           </div>
           <div className='card'>
             <div className='image'>
@@ -60,7 +60,7 @@ const Services = () => {
               <h3>Bathroom Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service5'><button className='btn_service'>read more</button></NavLink>
           </div>
           <div className='card'>
             <div className='image'>
@@ -70,7 +70,7 @@ const Services = () => {
               <h3>Cafe Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service6'><button className='btn_service'>read more</button></NavLink>
           </div>
           <div className='card'>
             <div className='image'>
@@ -80,7 +80,7 @@ const Services = () => {
               <h3>Office Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service7'><button className='btn_service'>read more</button></NavLink>
           </div>
           <div className='card'>
             <div className='image'>
@@ -90,7 +90,7 @@ const Services = () => {
               <h3>Commercial Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service8'><button className='btn_service'>read more</button></NavLink>
           </div>
           <div className='card'>
             <div className='image'>
@@ -100,7 +100,7 @@ const Services = () => {
               <h3>Interior Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <button className='btn_service'>read more</button>
+            <NavLink to = '/service9'><button className='btn_service'>read more</button></NavLink>
           </div>
         </div>
       </div>

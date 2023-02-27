@@ -1,5 +1,14 @@
 @import '../Header/variables.scss';
 
+* {
+    box-sizing: border-box;
+    // margin-top: auto;
+    padding: 0;
+}
+
+.footer__section {
+    margin-top: auto;
+
 .title {
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -186,4 +195,4 @@ footer {
         background: #f6f6f6;
     }
 }
-
+}

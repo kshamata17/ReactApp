@@ -1,0 +1,97 @@
+@import '../Header/variables.scss';
+
+.service__details__wrapper {
+    padding: 1rem 4rem;
+    .service__details__section {
+        margin-top: 20px;
+        .image__service {
+            // height: 110vh;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 90%;
+            img {
+                // height: 100%;
+                width: 100%;
+            }
+        }
+        .details {
+            padding: 1rem 5rem;
+            // background: #f6f6f6;
+            h2 {
+                text-align: center;
+                line-height: 2rem;
+                color: $logo;
+                text-transform: uppercase;
+                text-align: center;
+                &::after {
+                    content: "";
+                    display: block;
+                    border: 1px solid $logo;
+                    width: 5%;
+                    margin: 10px auto;
+                }
+            }
+            p {
+                font-size: 1.1rem;
+                line-height: 1.5rem;
+            }
+        }
+        .image__gallery {
+            display: flex;
+            flex-direction: column;
+            h3 {
+                margin-top: 20px;
+                text-align: center;
+                line-height: 2rem;
+                color: $logo;
+                text-transform: uppercase;
+                text-align: center;
+                &::after {
+                    content: "";
+                    display: block;
+                    border: 1px solid $logo;
+                    width: 5%;
+                    margin: 10px auto;
+                }
+            }
+            .images_grp {
+                display: flex;
+                justify-content: space-between;
+                .image {
+                    background: #f6f6f6;
+                    padding: 20px;
+                    .image__cont {
+                        height: 270px;
+                        // background: red;
+                        img {
+                            height: 100%;
+                        }
+                    }
+                    .image__info {
+                        margin-top: 20px;
+                        line-height: 1.3rem;
+                    }
+                }
+
+                @media only screen and (min-width: 480px) and (max-width: 1024px) {
+                    display: flex; 
+                    flex-direction: column;  
+                    .image__cont{
+                        margin: 1rem;
+                        height: 200px;
+                        
+                        img {
+                            height: 100%;                        }
+                    }
+                    .image__info {
+                        margin-top: 20px;
+                        line-height: 1.3rem;
+                        padding-right: 20px;
+                    }
+                }
+            }
+            
+        }
+    }
+}

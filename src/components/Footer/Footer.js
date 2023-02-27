@@ -10,7 +10,7 @@ import {FiPhoneCall} from "react-icons/fi";
 
 const Footer = () => {
   return (
-    <>
+    <div className='footer__section'>
     <h1 className='title'>Our Services</h1>
     <div className='services__container'>
         <div className='service'>
@@ -86,7 +86,7 @@ const Footer = () => {
             Copyright &copy; 2023- All Rights Reserved
         </div>
     </footer>
-    </>
+    </div>
   )
 }
 
