@@ -17,7 +17,7 @@ const Products = () => {
 
         <div className='first__prdt'>
             <div className='prdt__text'>
-                <NavLink to="/services" className="nav">
+                <NavLink to="/service4" className="nav">
                     <h2>Bedroom Items <div>< GrLinkNext /></div></h2>
                 </NavLink>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -34,7 +34,7 @@ const Products = () => {
                 <img alt='img' src={Dining}/>
             </div>
             <div className='prdt__text'>
-            <NavLink to="/services" className="nav">
+            <NavLink to="/service2" className="nav">
                 <h2>Kitchen Items <div>< GrLinkNext /></div></h2>
             </NavLink>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -45,7 +45,7 @@ const Products = () => {
         </div>
         <div className='first__prdt'>
             <div className='prdt__text'>
-            <NavLink to="/services" className="nav">
+            <NavLink to="/service5" className="nav">
                 <h2>Bathroom Items <div>< GrLinkNext /></div></h2>
             </NavLink> 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,

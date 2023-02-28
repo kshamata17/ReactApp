@@ -7,7 +7,7 @@ import Services from './Services';
 import Blog from './Blog';
 import Cart from './Cart';
 import Error from './Error';
-import MainHeader from './MainHeader';
+// import MainHeader from './MainHeader';
 import Privacy from './Privacy';
 import './App.scss';
 import ProductsGallery from './ProductsGallery';
@@ -22,11 +22,15 @@ import ServiceDetail6 from './ServiceDetail6';
 import ServiceDetail7 from './ServiceDetail7';
 import ServiceDetail8 from './ServiceDetail8';
 import ServiceDetail9 from './ServiceDetail9';
+import Footer from './components/Footer/Footer.js';
+import Header from './components/Header/Header';
 
 function App() {
   return <BrowserRouter>
+  <Header />
     <Routes>
-      <Route path="/" element={<MainHeader />} >
+    {/* path="/" element={<MainHeader />} */}
+      <Route  >
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
@@ -48,8 +52,10 @@ function App() {
         <Route path="service8" element={<ServiceDetail8 />} />
         <Route path="service9" element={<ServiceDetail9 />} />
         <Route path="*" element={<Error/>} />
+        {/* <Footer /> */}
       </Route>
     </Routes>
+    <Footer /> 
   </BrowserRouter>;
 }
 
