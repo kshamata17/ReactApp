@@ -73,7 +73,7 @@
         border: none;
         border-radius: 3px;
         bottom: 10%;
-        left: 50%;
+        left: 46%;
         -ms-transform: translateY(-50%, -50%);
         transform: translateY(-50%, -50%);
         transition: .3s;
@@ -81,6 +81,15 @@
             background: $bg;
             color: $logo;
             border: 1px solid $logo;
+            
+        }
+        @media only screen and (min-width: 480px) and (max-width: 1024px) {
+        position: absolute;
+        bottom: 50px;
+        left: 41%;
+        -ms-transform: translateY(-50%, -50%);
+        transform: translateY(-50%, -50%);
+            
         }
     }
    
