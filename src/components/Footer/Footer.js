@@ -34,7 +34,7 @@ const Footer = () => {
                 <FaLightbulb size='2x' color="white" />  
             </div>
             <div className='text'><p>Lighting</p>
-                <NavLink to="/services" className='services'>Details <BsArrowRight className='arrow'/></NavLink>
+                <NavLink to="/light" className='services'>Details <BsArrowRight className='arrow'/></NavLink>
             </div>
         </div>
         <div className='service' id='last'>

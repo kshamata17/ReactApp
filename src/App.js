@@ -24,6 +24,7 @@ import ServiceDetail8 from './ServiceDetail8';
 import ServiceDetail9 from './ServiceDetail9';
 import Footer from './components/Footer/Footer.js';
 import Header from './components/Header/Header';
+import Light from './Light';
 
 function App() {
   return <BrowserRouter>
@@ -51,6 +52,7 @@ function App() {
         <Route path="service7" element={<ServiceDetail7 />} />
         <Route path="service8" element={<ServiceDetail8 />} />
         <Route path="service9" element={<ServiceDetail9 />} />
+        <Route path="light" element={< Light/>} />
         <Route path="*" element={<Error/>} />
         {/* <Footer /> */}
       </Route>

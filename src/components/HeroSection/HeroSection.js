@@ -14,7 +14,7 @@ const HeroSection = ({name, image}) => {
                   <button className=''>Discover</button>
                 </NavLink>
                 
-                <p>10% off for all products</p>
+                <p>Design your home with passion</p>
             </div>
         </section>
   </>

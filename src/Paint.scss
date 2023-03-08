@@ -1,7 +1,11 @@
 @import './components/Header/variables.scss';
+@import './colors.scss';
 
 .color__wrapper {
     padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     h2 {
         text-align: center;
         padding: 2rem;
@@ -19,33 +23,128 @@
     }
     .color__gallery{
         background: $bg;
-        padding: 1rem;
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
-        .color__card {
-            margin: 2rem;
-            background: wheat;
-            height: 200px;
-            width: 200px;
-            border-top-right-radius: 20px;
-            position: relative;
-            .heart__icon {
-                color: $logo;
-                position: absolute;
-                right: 10px;
-                top: 10px;
-                font-size: 2rem;
-                transition: .2s ease-in-out;
-                &:hover {
-                    cursor: pointer;
+        // background: aliceblue;
+        .color__card__wrapper {
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 1px 2px 5px rgb(191, 190, 190);
+            .color__card {
+                margin: 1.5rem;
+                background: transparent;
+                height: 200px;
+                width: 200px;
+                border-top-right-radius: 20px;
+                position: relative;
+                .heart__icon {
                     color: $bg;
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    font-size: 2rem;
+                    transition: .4s ease-in-out;
+                    &:hover {
+                        cursor: pointer;
+                        color: $bg;
+                        transform: scale(1.1);
+                    }
                 }
+               
+                
             }
             h3 {
                 color: $logo;
                 position: absolute;
-                bottom: 10px;
-                padding-left: 10px;
+                // bottom: 10px;
+                padding-left: 35px;
+            }
+            .color1{
+                background-color: $color1;
+            }
+            .color2{
+                background-color: $color2;
+            }
+            .color3{
+                background-color: $color3;
+            }
+            .color4{
+                background-color: $color4;
+            }
+            .color5{
+                background-color: $color5;
+            }
+            .color6{
+                background-color: $color6;
+            }
+            .color7{
+                background-color: $color7;
+            }
+            .color8{
+                background-color: $color8;
+            }
+            .color9{
+                background-color: $color9;
+            }
+            .color10{
+                background-color: $color10;
+            }
+            .color11{
+                background-color: $color11;
+            }
+            .color12{
+                background-color: $color12;
+            }
+            .color13{
+                background-color: $color13;
+            }
+            .color14{
+                background-color: $color14;
+            }
+            .color15{
+                background-color: $color15;
+            }
+            .color16{
+                background-color: $color16;
+            }
+            .color17{
+                background-color: $color17;
+            }
+            .color18{
+                background-color: $color18;
+            }
+            .color19{
+                background-color: $color19;
+            }
+            .color20{
+                background-color: $color20;
+            }
+        }
+    }
+    .btn__more {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3{
+            border: none;
+            background: $bg;
+            // width: 50px;
+            border-radius: 5px;
+            padding: 20px 5px;
+            color: $menu;
+        }
+        .arrow__more {
+            cursor: pointer;
+            background: $bg;
+            color: $menu;
+            font-size: 20px;
+            transition: .5s all ease-in-out;
+            &:hover {
+                transform: translateX(5px);
+                color: $logo;
             }
         }
     }
