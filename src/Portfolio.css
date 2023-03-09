@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+.port__cont {
+  background: #f6f6f6;
+  padding: 1rem;
+  text-align: center;
+}
+.port__cont .port__text {
+  cursor: pointer;
+  border: 1px solid #84240c;
+  padding: 5px 30px;
+  transition: 0.3s ease-in-out;
+}
+.port__cont .port__text p {
+  font-size: 1.2rem;
+  color: #84240c;
+  text-transform: uppercase;
+}
+.port__cont .port__text p:hover {
+  color: #fff;
+}
+.port__cont .port__text:hover {
+  background: #84240c;
+  color: #fff;
+}/*# sourceMappingURL=Portfolio.css.map */

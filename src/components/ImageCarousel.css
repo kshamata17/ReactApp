@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+.testimonials__cont {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+}
+.testimonials__cont .test {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.testimonials__cont .test button {
+  border: none;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials__cont .test button p {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+.testimonials__cont .test .next__btn {
+  right: 0;
+}
+.testimonials__cont .test .testimonials {
+  width: 860px;
+  padding: 0 10px;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .testimonials__cont .test .testimonials {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.testimonials__cont button {
+  visibility: hidden;
+}/*# sourceMappingURL=ImageCarousel.css.map */

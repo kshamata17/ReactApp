@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+section h2 {
+  text-align: center;
+  padding: 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: rgb(88, 87, 87);
+}
+section h2::after {
+  content: "";
+  display: block;
+  border: 1px solid rgb(88, 87, 87);
+  width: 5%;
+  margin: 10px auto;
+}
+section .container__form {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+section .container__form .contact__form {
+  max-width: 50rem;
+  margin: auto;
+}
+section .container__form .contact__form .contact__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+section .container__form .contact__form .contact__inputs input {
+  font-size: 1rem;
+  padding: 8px 30px;
+  height: 2rem;
+}
+section .container__form .contact__form .contact__inputs input:focus {
+  outline-color: #da6d42;
+}
+section .container__form .contact__form .contact__inputs textarea {
+  font-size: 1rem;
+  padding: 8px 30px;
+}
+section .container__form .contact__form .contact__inputs textarea:focus {
+  outline-color: #da6d42;
+}
+section .container__form .contact__form .contact__inputs input[type=submit] {
+  background: #84240c;
+  color: #fff;
+  height: 2.5rem;
+  cursor: pointer;
+  letter-spacing: 2px;
+  border: none;
+}
+section .container__form .contact__form .contact__inputs input[type=submit]:hover {
+  background: #fff;
+  color: #84240c;
+  border: 1px solid #84240c;
+}/*# sourceMappingURL=Contact.css.map */

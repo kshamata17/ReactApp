@@ -1,0 +1,78 @@
+.products {
+  margin: 4rem 6rem;
+  font-family: serif;
+}
+.products h1 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.products h1::after {
+  content: "";
+  display: block;
+  border: 1px solid black;
+  width: 5%;
+  margin: 10px auto;
+}
+.products .first__prdt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+.products .first__prdt .prdt__text {
+  width: 40%;
+  text-align: center;
+}
+.products .first__prdt .prdt__text .nav {
+  text-decoration: none;
+  color: black;
+}
+.products .first__prdt .prdt__text h2 {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.products .first__prdt .prdt__text h2 div {
+  margin-left: 10px;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(192, 103, 44);
+  color: rgb(192, 103, 44);
+  cursor: pointer;
+}
+.products .first__prdt .prdt__text h2 div:hover {
+  background: rgb(192, 103, 44);
+}
+.products .first__prdt .prdt__text p {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.products .first__prdt .image {
+  width: 75%;
+  margin: 1rem;
+  height: 550px;
+}
+.products .first__prdt .image img {
+  height: 100%;
+  width: 100%;
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .products .first__prdt {
+    display: flex;
+    flex-direction: column;
+  }
+  .products .first__prdt .image {
+    width: 100%;
+    margin: 1rem;
+    height: 400px;
+  }
+  .products .first__prdt .image img {
+    height: 100%;
+    width: 100%;
+  }
+}/*# sourceMappingURL=Products.css.map */

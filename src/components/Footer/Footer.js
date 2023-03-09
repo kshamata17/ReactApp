@@ -18,7 +18,7 @@ const Footer = () => {
                 <FaBed size='2x' color="white" />
             </div>
             <div className='text'><p>Furniture</p>
-                <NavLink to="/services" className='services'>Details <BsArrowRight className='arrow'/></NavLink>
+                <NavLink to="index element" className='services'>Details <BsArrowRight className='arrow'/></NavLink>
             </div>
         </div>
         <div className='service'>
@@ -54,7 +54,7 @@ const Footer = () => {
                 </p>
             </div>
             <ul className='col'><h3>Company</h3>
-                <NavLink to="/home" className="nav"><li><a>Home</a></li></NavLink>
+                <NavLink to="/" className="nav"><li><a>Home</a></li></NavLink>
                 <NavLink to="/services" className="nav"><li><a>Services</a></li></NavLink>
                 <NavLink to="/about" className="nav"><li><a>About</a></li></NavLink>
                 <NavLink to="/portfolio" className="nav"><li><a>Portfolio</a></li></NavLink>

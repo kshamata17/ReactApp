@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+.services__cont {
+  padding: 5rem;
+}
+.services__cont .group {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services__cont .group .card {
+  flex-basis: 20%;
+  margin: 2rem;
+}
+.services__cont .group .card .image {
+  height: 250px;
+}
+.services__cont .group .card .image img {
+  height: 100%;
+}
+.services__cont .group .card .content {
+  padding: 2rem 0;
+}
+.services__cont .group .card .content h3 {
+  text-transform: uppercase;
+  color: #84240c;
+}
+.services__cont .group .card .content p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: rgb(99, 99, 99);
+}
+.services__cont .group .card .btn_service {
+  border: 1px solid rgb(99, 99, 99);
+  background: #fff;
+  padding: 1rem 5rem;
+  color: #da6d42;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.3s ease-in-out;
+}
+.services__cont .group .card .btn_service:hover {
+  background: #84240c;
+  color: #fff;
+}/*# sourceMappingURL=Portfolio_comp.css.map */

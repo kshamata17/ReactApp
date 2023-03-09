@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+.privacy__wrapper {
+  padding: 1rem 4rem;
+}
+.privacy__wrapper .privacy__container {
+  margin: 2rem 4rem;
+}
+.privacy__wrapper .privacy__container h2 {
+  text-align: center;
+  padding: 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: rgb(88, 87, 87);
+}
+.privacy__wrapper .privacy__container h2::after {
+  content: "";
+  display: block;
+  border: 1px solid rgb(88, 87, 87);
+  width: 5%;
+  margin: 10px auto;
+}
+.privacy__wrapper .privacy__container h3 {
+  color: #000;
+  line-height: 1.5rem;
+}
+.privacy__wrapper .privacy__container p {
+  margin-bottom: 20px;
+  line-height: 1.3rem;
+}/*# sourceMappingURL=Privacy.css.map */

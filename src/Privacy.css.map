@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/Header/variables.scss","Privacy.scss","Privacy.css"],"names":[],"mappings":"AAuBQ,2MAAA;ACrBR;EACI,kBAAA;ACAJ;ADCI;EACI,iBAAA;ACCR;ADCQ;EACI,kBAAA;EACA,aAAA;EACA,0BAAA;EACA,eAAA;EACA,sBAAA;ACCZ;ADCY;EACI,WAAA;EACA,cAAA;EACA,iCAAA;EACA,SAAA;EACA,iBAAA;ACChB;ADEQ;EACI,WAAA;EACA,mBAAA;ACAZ;ADGQ;EACI,mBAAA;EACA,mBAAA;ACDZ","file":"Privacy.css"}

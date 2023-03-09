@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+.gallery__cont {
+  display: flex;
+  margin: 1.5rem;
+  justify-content: center;
+}
+.gallery__cont .group .card {
+  display: flex;
+  justify-content: center;
+  min-width: 50rem;
+  background: whitesmoke;
+  margin-top: 20px;
+}
+.gallery__cont .group .card .image {
+  height: 140px;
+  width: 445px;
+  padding: 1rem;
+}
+.gallery__cont .group .card .image img {
+  height: 100%;
+}
+.gallery__cont .group .card .content {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.gallery__cont .group .card .content .title__price {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.gallery__cont .group .card .content .title__price h3 {
+  text-transform: uppercase;
+  color: #84240c;
+}
+.gallery__cont .group .card .content .title__price h4 {
+  padding-left: 10px;
+  color: #84240c;
+}
+.gallery__cont .group .card .content .title__price .btn_service {
+  cursor: pointer;
+  height: 3rem;
+  width: 10rem;
+  border: 1px solid rgb(99, 99, 99);
+  background: #fff;
+  position: absolute;
+  top: -15px;
+  right: 10px;
+  color: #da6d42;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  transition: 0.3s ease-in-out;
+}
+.gallery__cont .group .card .content .title__price .btn_service:hover {
+  background: #84240c;
+  color: #fff;
+}
+.gallery__cont .group .card .content p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: rgb(99, 99, 99);
+}/*# sourceMappingURL=ProductsGallery.css.map */

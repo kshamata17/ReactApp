@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+.color__wrapper {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.color__wrapper h2 {
+  text-align: center;
+  padding: 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: rgb(88, 87, 87);
+}
+.color__wrapper h2::after {
+  content: "";
+  display: block;
+  border: 1px solid rgb(88, 87, 87);
+  width: 5%;
+  margin: 10px auto;
+}
+.color__wrapper .color__gallery {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.color__wrapper .color__gallery .color__card__wrapper {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 2px 5px rgb(191, 190, 190);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color__card {
+  margin: 1.5rem;
+  background: transparent;
+  height: 200px;
+  width: 200px;
+  border-top-right-radius: 20px;
+  position: relative;
+}
+.color__wrapper .color__gallery .color__card__wrapper .color__card .heart__icon {
+  color: #fff;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 2rem;
+  transition: 0.4s ease-in-out;
+}
+.color__wrapper .color__gallery .color__card__wrapper .color__card .heart__icon:hover {
+  cursor: pointer;
+  color: #fff;
+  transform: scale(1.1);
+}
+.color__wrapper .color__gallery .color__card__wrapper h3 {
+  color: #84240c;
+  position: absolute;
+  padding-left: 35px;
+}
+.color__wrapper .color__gallery .color__card__wrapper .color1 {
+  background-color: red;
+}
+.color__wrapper .color__gallery .color__card__wrapper .color2 {
+  background-color: rgb(244, 74, 74);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color3 {
+  background-color: rgb(245, 117, 117);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color4 {
+  background-color: rgb(244, 174, 174);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color5 {
+  background-color: rgb(247, 205, 205);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color6 {
+  background-color: green;
+}
+.color__wrapper .color__gallery .color__card__wrapper .color7 {
+  background-color: rgb(52, 144, 52);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color8 {
+  background-color: rgb(59, 169, 59);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color9 {
+  background-color: rgb(17, 192, 17);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color10 {
+  background-color: rgb(18, 227, 18);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color11 {
+  background-color: purple;
+}
+.color__wrapper .color__gallery .color__card__wrapper .color12 {
+  background-color: rgb(159, 21, 159);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color13 {
+  background-color: rgb(197, 25, 197);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color14 {
+  background-color: rgb(217, 43, 217);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color15 {
+  background-color: rgb(225, 134, 225);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color16 {
+  background-color: brown;
+}
+.color__wrapper .color__gallery .color__card__wrapper .color17 {
+  background-color: rgb(193, 81, 81);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color18 {
+  background-color: rgb(210, 89, 89);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color19 {
+  background-color: rgb(226, 114, 114);
+}
+.color__wrapper .color__gallery .color__card__wrapper .color20 {
+  background-color: rgb(221, 144, 144);
+}
+.color__wrapper .btn__more {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.color__wrapper .btn__more h3 {
+  border: none;
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px 5px;
+  color: rgb(192, 103, 44);
+}
+.color__wrapper .btn__more .arrow__more {
+  cursor: pointer;
+  background: #fff;
+  color: rgb(192, 103, 44);
+  font-size: 20px;
+  transition: 0.5s all ease-in-out;
+}
+.color__wrapper .btn__more .arrow__more:hover {
+  transform: translateX(5px);
+  color: #84240c;
+}/*# sourceMappingURL=Paint.css.map */

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main__section {
+  height: 60vh;
+  position: relative;
+  text-align: center;
+}
+.main__section img {
+  filter: brightness(0.7);
+  height: 100%;
+  width: 100%;
+}
+.main__section .content {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main__section .content h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px #fff;
+  font-family: "Dancing Script";
+  text-transform: uppercase;
+}
+.main__section .content button {
+  background: none;
+  padding: 10px 2rem;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bolder;
+  border: 1px solid #fff;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+}
+.main__section .content button:hover {
+  transform: scale(120%);
+  transition: 0.5s ease-in-out;
+  color: black;
+  background: #fff;
+}
+.main__section .content p {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+}/*# sourceMappingURL=HeroSection.css.map */

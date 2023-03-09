@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+* .wrapper {
+  padding: 2rem 6rem;
+  display: flex;
+  background: #f6f6f6;
+  margin-top: 1rem;
+}
+* .wrapper .text {
+  padding: 10px;
+}
+* .wrapper .text h2 {
+  font-size: 1.2rem;
+  color: #da6d42;
+  text-transform: uppercase;
+}
+* .wrapper .text h2::after {
+  content: "";
+  display: block;
+  border: 1px solid #da6d42;
+  width: 50%;
+  margin: 20px 0;
+}
+* .wrapper .text h3 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: rgb(85, 85, 85);
+}
+* .wrapper .text p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+* .wrapper picture {
+  display: flex;
+}
+* .wrapper picture div {
+  background: lightgray;
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+* .wrapper picture div img {
+  position: absolute;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+}
+* .wrapper picture div img:hover {
+  transform: scale(1.2);
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  * .wrapper picture {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Welcome.css.map */

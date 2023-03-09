@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Montserrat:wght@600;800&family=Passions+Conflict&family=Poppins:wght@400;500;600;700;800&display=swap");
+.payment__wrapper {
+  padding: 5rem;
+  position: relative;
+}
+.payment__wrapper .payment__section {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.payment__wrapper .payment__section .payment__card {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.payment__wrapper .payment__section .payment__card h2 {
+  text-align: center;
+  padding: 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: rgb(88, 87, 87);
+}
+.payment__wrapper .payment__section .payment__card h2::after {
+  content: "";
+  display: block;
+  border: 1px solid rgb(88, 87, 87);
+  width: 5%;
+  margin: 10px auto;
+}
+.payment__wrapper .payment__section .payment__card .card {
+  border-radius: 5px;
+  margin: 1rem;
+  box-shadow: 3px 3px 10px gray;
+}
+.payment__wrapper .payment__section .payment__card .card .card__box {
+  padding: 20px;
+}
+.payment__wrapper .payment__section .payment__card .card .card__box form {
+  display: flex;
+  flex-direction: column;
+}
+.payment__wrapper .payment__section .payment__card .card .card__box form input {
+  height: 2.5rem;
+  margin-top: 10px;
+  font-size: 1rem;
+  padding-left: 5px;
+}
+.payment__wrapper .payment__section .payment__card .card .card__box form input:focus {
+  outline-color: #da6d42;
+}
+.payment__wrapper .payment__section .payment__card .card .card__box form div {
+  display: flex;
+  justify-content: space-between;
+}
+.payment__wrapper .pay {
+  cursor: pointer;
+  position: absolute;
+  background: #84240c;
+  color: #fff;
+  padding: 5px 50px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 3px;
+  bottom: 10%;
+  left: 46%;
+  transform: translateY(-50%, -50%);
+  transition: 0.3s;
+}
+.payment__wrapper .pay:hover {
+  background: #fff;
+  color: #84240c;
+  border: 1px solid #84240c;
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .payment__wrapper .pay {
+    position: absolute;
+    bottom: 50px;
+    left: 41%;
+    transform: translateY(-50%, -50%);
+  }
+}/*# sourceMappingURL=Payment.css.map */
