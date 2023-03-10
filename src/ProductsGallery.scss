@@ -1,9 +1,23 @@
 @import './components/Header/variables.scss';
 
+h2 {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2rem;
+    &::after {
+        content: "";
+        display: block;
+        border: 1px solid black;
+        width: 5%;
+        margin: 10px auto;
+    }
+}
 .gallery__cont {
     display: flex;
     margin: 1.5rem;
     justify-content: center;
+    
 
     .group {
 

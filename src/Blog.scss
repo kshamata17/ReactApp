@@ -2,15 +2,17 @@
 
 .blog__wrapper {
     padding: 4rem;
-
     .blog__container {
         padding: 1rem;
         display: flex;
         flex-wrap: wrap;
+
         .blog {
+            background-color: #f6f6f6;
+
             flex-basis: 28%;
             margin: 2rem;
-            background-color: $bg;
+            // background-color: $bg;
             .blog__image {
                 max-width: 400px;
                 img {

@@ -5,22 +5,20 @@
 .about__wrapper {
     padding: 2rem 8rem;
     h2 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
         text-align: center;
-        padding: 2rem;
-        text-transform: capitalize;
-        font-size: 2rem;
-        color: rgb(88, 87, 87);
-    
+        margin-top: 2rem;
         &::after {
             content: "";
             display: block;
-            border: 1px solid rgb(88, 87, 87);
+            border: 1px solid black;
             width: 5%;
             margin: 10px auto;
         }
     }
     .about__container {
-        background: $bg;
+        background: #f2f2f2;
         display: flex;
         // margin: 20px;
         .image {
@@ -51,18 +49,16 @@
 
 .team__wrapper{
     padding: 2rem 8rem;
-    background: #f6f6f6;
+    // background: #f6f6f6;
     h2 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
         text-align: center;
-        padding: 2rem;
-        text-transform: capitalize;
-        font-size: 2rem;
-        color: rgb(88, 87, 87);
-    
+        margin-top: 2rem;
         &::after {
             content: "";
             display: block;
-            border: 1px solid rgb(88, 87, 87);
+            border: 1px solid black;
             width: 5%;
             margin: 10px auto;
         }

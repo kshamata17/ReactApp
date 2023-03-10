@@ -11,6 +11,7 @@ const Blog = () => {
   return (
     <>
       <HeroSection  {...data}/>
+      <h2>Blog</h2>
       <div className='blog__wrapper'>
         <div className='blog__container'>
           <div className='blog'>

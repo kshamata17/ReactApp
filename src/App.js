@@ -54,7 +54,6 @@ function App() {
         <Route path="service9" element={<ServiceDetail9 />} />
         <Route path="light" element={< Light/>} />
         <Route path="*" element={<Error/>} />
-        {/* <Footer /> */}
       </Route>
     </Routes>
     <Footer /> 

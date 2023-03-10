@@ -118,26 +118,51 @@ footer {
             padding-left: 6rem;
             .nav {
                 text-decoration: none;
+                
+                li {
+                    color: black;
+                    transition: all .3s ease-in-out;
+                    &:hover {
+                        color: $logo;
+                        transform: translateX(5px);
+                    }
+                }
             }
             h3 {
                 font-size: 1.3rem;
                 line-height: 2rem;
             }
-            p, li{
+            p{
+                // padding-left: 30px;
                 margin-bottom: 10px;
                 line-height: 1.5rem;
                 list-style: none;
+            }
+            #footer__title {
+                color: $logo;
+                font-size: 1.7rem;
+                cursor: pointer;
+                font-family: 'Dancing Script';
+            }
+            li{
+                margin-bottom: 10px;
+                line-height: 1.5rem;
+                list-style: none;
+                
                 p{
                     padding-left: 30px;
+                    // margin-bottom: 10px;
+                    // line-height: 1.5rem;
+                    // list-style: none;
                 }
 
-                a{
-                    color: black;
-                    // transition: all .3s ease-in-out;
-                    &:hover {
-                        color: $logo;
-                    }
-                }
+                // a{
+                //     color: black;
+                //     &:hover {
+                //         color: $logo;
+                //         transform: translateX(5px);
+                //     }
+                // }
                 h3 {
                     display: flex;
                     align-items: center;
@@ -179,6 +204,7 @@ footer {
                 color: $menu;
                 background-color: $bg;
                 cursor: pointer;
+                transition: .5s all ease-in-out;
                 &:hover {
                     color: $bg;
                     background-color: $menu;

@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import Footer from './components/Footer/Footer.js';
 import HeroSection from './components/HeroSection/HeroSection.js'
 import './Services.scss'
 const Services = () => {
@@ -11,8 +12,9 @@ const Services = () => {
     <>
       <HeroSection  {...data}/>
       <div className='services__cont'>
-        <div className='group'>
-          <div className='card'>
+        <h2>Our Services</h2>
+        <div className='group' >
+          <div className='card'  >
             <div className='image'>
               <img src='./images/house.jpg'/>
             </div>
@@ -104,6 +106,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+     
     </>
   )
 }

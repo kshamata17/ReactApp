@@ -2,10 +2,24 @@
 
 .services__cont {
     padding: 5rem;
+    h2 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 2rem;
+        &::after {
+            content: "";
+            display: block;
+            border: 1px solid black;
+            width: 5%;
+            margin: 10px auto;
+        }
+    }
     .group {
-        padding: 1rem;
+        // padding: 1rem;
         display: flex;
         flex-wrap: wrap;
+        background-color: #f2f2f2;
 
         .card {
             flex-basis: 20%;

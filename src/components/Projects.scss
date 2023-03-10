@@ -54,6 +54,9 @@
                     transform: translate(-50%, -50%);
                     color: $bg;
                     font-size: $h2;
+                    &::after {
+                        display: none;
+                    }
                 }   
                 .overlay {
                     position: absolute;

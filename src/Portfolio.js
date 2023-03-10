@@ -11,6 +11,7 @@ const Portfolio = () => {
   return (
     <>
       <HeroSection  {...data}/>
+      <h2>Our Portfolio</h2>
       <Portfolio_comp />
       <div className='port__cont'>
         <button className='port__text'>

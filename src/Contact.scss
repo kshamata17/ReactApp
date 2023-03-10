@@ -3,16 +3,14 @@
 section {
 
     h2 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
         text-align: center;
-        padding: 2rem;
-        text-transform: capitalize;
-        font-size: 2rem;
-        color: rgb(88, 87, 87);
-
+        margin-top: 2rem;
         &::after {
             content: "";
             display: block;
-            border: 1px solid rgb(88, 87, 87);
+            border: 1px solid black;
             width: 5%;
             margin: 10px auto;
         }
